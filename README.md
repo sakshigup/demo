@@ -45,6 +45,8 @@ export TOPIC_NAME = <TopicName>
 ```
 sbt runAll
 ```
+This will compile and run all your files and starts the services.
+
 * To get the data, invoke the route by providing the timestamp value in Long:
 ```
 https://localhost:9000/api/temperature/time/:timestamp
