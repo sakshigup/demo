@@ -37,9 +37,9 @@ The default topic name set by the application is **_"temperature"_**.
 ```
 
 * Export the topic name explicitly in case default topic name is not used, use the following command:<br>
-  ```
+```
   export TOPIC_NAME= \<TopicName>
-  ```
+```
 
 * Start the application using the following command:
 ```
@@ -56,8 +56,6 @@ https://localhost:9000/api/temperature/time/1499070300000
 ```  
   
 * Sample Response
-  
-#### Example:
 ```
   {
     "device-id": "0x0132",
