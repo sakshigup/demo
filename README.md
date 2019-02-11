@@ -54,8 +54,7 @@ https://localhost:9000/api/temperature/time/:timestamp
 ```
 https://localhost:9000/api/temperature/time/1499070300000
 ```  
-  
-* Sample Response
+#### Sample Response
 ```
   {
     "device-id": "0x0132",
