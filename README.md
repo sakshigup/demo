@@ -20,7 +20,7 @@ To get started make sure you have sbt installed on your system.
 ```
 
 **TopicName: Provide the name of the topic you want to create.**  
-**_The default topic name set by the application is "temperature"_**
+The default topic name set by the application is **_"temperature"_**
 * Start a console producer
 ```
 > bin/kafka-console-producer.sh --broker-list localhost:9092 --topic <TopicName>
@@ -36,8 +36,8 @@ To get started make sure you have sbt installed on your system.
 > { "device-id": "0x0132", "timestamp": "2018-08-31T21:33:56Z", "temperature": 40.2 }
 ```
 
-* Export the topic name explicitly in case default topic name is not used, use the following command:
-  **_export TOPIC_NAME= <TopicName>_**
+* Export the topic name explicitly in case default topic name is not used, use the following command:<br>
+  **_export TOPIC_NAME= /<TopicName>_**
 
 * Start the application using the following command:
 ```
