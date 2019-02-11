@@ -20,7 +20,7 @@ To get started make sure you have sbt installed on your system.
 ```
 
 **TopicName: Provide the name of the topic you want to create.**  
-**The default topic name set by the application is "temperature"**
+**_The default topic name set by the application is "temperature"_**
 * Start a console producer
 ```
 > bin/kafka-console-producer.sh --broker-list localhost:9092 --topic <TopicName>
@@ -31,13 +31,13 @@ To get started make sure you have sbt installed on your system.
 > { "device-id": <String>, "timestamp": <String>, "temperature": <Double> }
 ```
   
-##### Example:
+#### Example:
 ```
 > { "device-id": "0x0132", "timestamp": "2018-08-31T21:33:56Z", "temperature": 40.2 }
 ```
 
 * Export the topic name explicitly in case default topic name is not used, use the following command:<br>
-  export TOPIC_NAME= \<TopicName>
+  **_export TOPIC_NAME= \<TopicName>_**
 
 * Start the application using the following command:
 ```
@@ -48,15 +48,14 @@ sbt runAll
 https://localhost:9000/api/temperature/time/:timestamp
 ```
   
-  
-  ##### Example:
+#### Example:
 ```
 https://localhost:9000/api/temperature/time/1499070300000
 ```  
   
 * Sample Response<br>
   
-  ##### Example:
+#### Example:
 ```
   {
     "device-id": "0x0132",
