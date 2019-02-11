@@ -26,7 +26,7 @@ The default topic name set by the application is **_"temperature"_**.
 > bin/kafka-console-producer.sh --broker-list localhost:9092 --topic <TopicName>
 ```
 
-* Produce some messages, format should be like below:
+* Produce some messages, the format should be like below:
 ```
 > { "device-id": <String>, "timestamp": <String>, "temperature": <Double> }
 ```
