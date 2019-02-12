@@ -38,7 +38,7 @@ The default topic name set by the application is **_"temperature"_**.
 
 * Export the topic name explicitly in case default topic name is not used, use the following command:<br>
 ```
-export TOPIC_NAME = <TopicName>
+export TOPIC_NAME=<TopicName>
 ```
 
 * Start the application using the following command:
@@ -49,12 +49,12 @@ This will compile and run all your files and starts the services.
 
 * To get the data, invoke the route by providing the timestamp value in Long:
 ```
-https://localhost:9000/api/temperature/time/:timestamp
+http://localhost:9000/api/temperature/time/:timestamp
 ```
   
 #### Example:
 ```
-https://localhost:9000/api/temperature/time/1499070300000
+http://localhost:9000/api/temperature/time/1499070300000
 ```  
 #### Sample Response
 ```
